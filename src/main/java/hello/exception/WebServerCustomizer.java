@@ -8,8 +8,6 @@ import org.springframework.stereotype.Component;
 
 
 //@Component
-
-
 public class WebServerCustomizer implements WebServerFactoryCustomizer<ConfigurableWebServerFactory> { // 이렇게 커스터마이징 할 수 있다.
     @Override
     public void customize(ConfigurableWebServerFactory factory) {
